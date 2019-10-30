@@ -1,4 +1,3 @@
-var name = window.prompt("Enter your name: ");
 var today = new Date();
 var hourNow =  today.getHours();
 var minuteNow =  today.getMinutes();
@@ -14,5 +13,5 @@ if (hourNow > 18) {
     greeting ='Welcome!';
 }
 
-document.write('<h4>' + greeting + ' ' + name + '</h4>  The time is ' + hourNow + ':' + minuteNow );
+document.write('<h4>' + greeting + '</h4>  The time is ' + hourNow + ':' + minuteNow );
 
