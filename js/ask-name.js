@@ -1,2 +1,4 @@
-var name = window.prompt("Enter your name: ");
-document.write('Hello, ' + name + '. I hope you have a battastic day!');
+function askName(){
+    var name = window.prompt("Enter your name: ");
+    return 'Hello, ' + name + '. I hope you have a battastic day!';
+}

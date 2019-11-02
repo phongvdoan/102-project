@@ -1,9 +1,16 @@
+function askName() {
+    var name = window.prompt("Enter your name: ");
+    return 'Hello, ' + name + '. I hope you have a battastic day!';
+}
+function likeBatman() {
+    document.getElementById("batman").innerHTML = "You get a whole crispy dollar!";
+}
+
 function greeting() {
     var today = new Date();
     var hourNow = today.getHours();
     var minuteNow = today.getMinutes();
     var greeting;
-
 
 
     if (hourNow > 18) {
