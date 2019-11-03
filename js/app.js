@@ -1,10 +1,11 @@
 function askName() {
     var name = '';
-    while (name == ''){
+    while (name == '') {
         name = window.prompt("Enter your name: ");
-    }  
+    }
     return 'Hello, ' + name + '. I hope you have a battastic day!';
 }
+
 function likeBatman() {
     document.getElementById("batman").innerHTML = "You get a whole crispy dollar!";
 }
@@ -16,7 +17,7 @@ function buyBatman() {
         items = prompt("How many Batman dolls would you like to order? Please ENTER a number");
     }
     for (var i = 0; i < items; i++) {
-        total = total + '<p> #' + (i+1) + ' <img src="/images/batmandoll.jpg" id="image"></p>';  
+        total = total + '<p> #' + (i + 1) + ' <img src="/images/batmandoll.jpg" id="image"></p>';
     }
     return total;
 }
@@ -42,4 +43,3 @@ function greeting() {
 
 
 }
-
