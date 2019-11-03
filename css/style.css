@@ -25,3 +25,10 @@ body {
     float: right;
     margin-left: 30px
 }
+
+#doll {
+    height: 15%;
+    width: 15%;
+    float: left;
+    margin-left: 10px;
+}
