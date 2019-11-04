@@ -17,7 +17,7 @@ function buyBatman() {
         items = prompt("How many Batman dolls would you like to order? Please ENTER a number");
     }
     for (var i = 0; i < items; i++) {
-        total = total + '<p id="doll"> #' + (i + 1) + ' <img src="/images/batmandoll.jpg" id="image"></p>';
+        total = total + '<p id="doll"> #' + (i + 1) + ' <img src="images/batmandoll.jpg" id="image"></p>';
     }
     return total;
 }
